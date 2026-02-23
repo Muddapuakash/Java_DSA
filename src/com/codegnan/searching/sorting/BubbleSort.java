@@ -1,4 +1,4 @@
-package com.codegnan.sorting;
+package com.codegnan.searching.sorting;
 
 import java.util.Arrays;
 
