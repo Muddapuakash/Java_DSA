@@ -2,39 +2,35 @@ package com.codegnan.searching.sorting;
 
 import java.util.Arrays;
 
-public class LastDigitSort {
-
+public class SortEvenNumberFisrt {
 	public static void main(String[] args) {
-		int[] arr= {89,29,17,36,25,11};
+		int[] arr= {23,86,56,47,92,77,93};
 		BubbleSort(arr);
-		/*
-		 * for(int arr1:arr) { System.out.println(arr1); }
-		 */
-
 	}
 
 	private static void BubbleSort(int[] arr) {
+		
 		for(int i=0;i<arr.length-1;i++) {
-			boolean isSwapped=false;
-			for(int j=0;j<arr.length-1;j++) {
-				int last1=arr[j]%10;
-				int last2=arr[j+1]%10;
-					if(arr[j]>arr[j+1] || last1>last2 ) 
-					{
-						
 				
+				
+			for(int j=0;j<arr.length-1;j++) {
+				
+				int first1=arr[j]%2;
+				int first2=arr[j+1]%2;
+				if(first1>first2) {
 					//swapping of two elements
 					int temp=arr[j];   
 					arr[j]=arr[j+1];
 					arr[j+1]=temp;
-					isSwapped=true;
+					
+				
 				}
 			}
-			
-			if(!isSwapped) break;
+		
 		}
 		System.out.println(Arrays.toString(arr));
+		
 	}
+
+
 }
-
-
