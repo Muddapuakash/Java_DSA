@@ -10,7 +10,6 @@ public class BubbleSort {
 
 	}
 	
-	
 	//descending order
 	/*
 	 * public static void SortBubble(int[] arr) { int count=0;
