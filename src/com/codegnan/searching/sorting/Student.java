@@ -1,6 +1,6 @@
 package com.codegnan.searching.sorting;
 
-public class Student implements Comparable<Student> {
+public class Student  {
     String name;
     int marks;
 
@@ -13,8 +13,8 @@ public class Student implements Comparable<Student> {
         System.out.println(name + " - " + marks);
     }
 
-    @Override
-    public int compareTo(Student other) {
-        return this.marks - other.marks;  
-    }
+//    @Override
+//    public int compareTo(Student other) {
+//        return this.marks - other.marks;  
+//    }
 }
