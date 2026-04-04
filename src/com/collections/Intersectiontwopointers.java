@@ -12,7 +12,7 @@ public class Intersectiontwopointers {
         int i = 0;
         int j = 0;
 
-        List<Integer> result = new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<>();
 
         while(i < arr1.length && j < arr2.length) {
 
